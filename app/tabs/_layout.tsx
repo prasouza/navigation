@@ -15,7 +15,7 @@ export default function Layout(props: any) {
             <Tabs.Screen
                 name="index"
                 options={{
-                    title: 'Home',
+                    title: 'Início',
                     tabBarIcon: icone('home-outline'),
                 }}
             />
