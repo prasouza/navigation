@@ -12,7 +12,7 @@ export default function TelaInicial() {
             <Ionicons name="logo-react" size={100} />
             <View style={{ alignItems: 'center' }}>
                 <Text style={{ fontSize: 20, fontWeight: 700 }}>Revisão React Native</Text>
-                <Text style={{ fontSize: 16 }}>Desevvolvedor Mobile</Text>
+                <Text style={{ fontSize: 16 }}>Desevolvedor Mobile</Text>
             </View>
             <Botao onPress={() => nav.dispatch(DrawerActions.openDrawer())}>
                 <Text style={{ color: '#fff' }}>Navegação</Text>
